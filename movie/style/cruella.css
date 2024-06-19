@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-color: #faeee7;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.300);
+    margin-bottom: 40px;
+}
+
+.menu-icon a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.search-icon,
+.menu-icon{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.search-icon{
+    margin-left: 8px;
+}
+
+.menu-icon{
+    margin-right: 8px;
+    padding-left: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.search-icon img,
+.menu-icon img{
+    width: 20px;
+    cursor: pointer;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menu-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.image{
+    /* border: 1px solid white; */
+    min-width: 500px;
+    min-height: 750px;
+    background-image: url("../assets/cruella-long.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.desc{
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    width: 900px;
+    height: 750px;
+    padding: 50px;
+}
+
+.desc h1{
+    font-size: 80px;
+}
+
+span{
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+header {
+    background-color: #111;
+    padding: 20px 0;
+    width: 100%;
+}
+  
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+}
+  
+header nav {
+    display: flex;
+    align-items: center;
+}
+  
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+header nav li {
+    margin-left: 20px;
+}
+  
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+  
+header nav a:hover {
+    background-color: #333;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+  
+.search input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    width: 300px;
+}
+  
+.search i {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+  
+.movie-details img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+  
+.details {
+    margin-left: 30px;
+    flex: 1;
+}
+  
+.details h2 {
+    margin-top: 0;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+  
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.rating span {
+    margin-left: 5px;
+    font-size: 24px;
+    color: red;
+}
+  
+.details p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+  
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #222;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+  
+.buttons button:hover {
+    background-color: #ddd;
+}
+  
+.trailer {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+  
+.trailer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.watch-trailer {
+    position: absolute;
+    bottom: 10px;
+}
+
+.trailer-button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.trailer-button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.genre-button {
+  background-color: rgb(226, 204, 185);
+  border-radius: 8px;
+  border-width: 0;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.credits,
+.intro{
+    font-size: 20px;
+}
